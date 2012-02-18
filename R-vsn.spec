@@ -15,7 +15,6 @@ Requires:         R-affydata R-hgu95av2cdf
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Biobase
 BuildRequires:    R-methods R-affy R-limma R-lattice 
 BuildRequires:    R-affydata R-hgu95av2cdf 
-BuildRequires:    x11-server-xvfb
 
 %description
 The package implements a method for normalising microarray intensities,
@@ -39,9 +38,6 @@ mkdir -p %{buildroot}%{rlibdir}
 %{_bindir}/R CMD INSTALL -l %{buildroot}%{rlibdir} %{packname}
 test -d %{packname}/src && (cd %{packname}/src; rm -f *.o *.so)
 rm -f %{buildroot}%{rlibdir}/R.css
-
-%check
-xvfb-run %{_bindir}/R CMD check %{packname}
 
 %files
 %dir %{rlibdir}/%{packname}
