@@ -9,12 +9,11 @@ Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/vsn.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/vsn_3.22.0.tar.gz
-Requires:         R-Biobase 
-Requires:         R-methods R-affy R-limma R-lattice 
-Requires:         R-affydata R-hgu95av2cdf 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Biobase
-BuildRequires:    R-methods R-affy R-limma R-lattice 
-BuildRequires:    R-affydata R-hgu95av2cdf 
+Requires:         R-Biobase R-methods R-affy R-limma R-lattice
+Requires:         R-affydata R-hgu95av2cdf
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Biobase R-methods R-affy R-limma R-lattice
+BuildRequires:    R-affydata R-hgu95av2cdf
 
 %description
 The package implements a method for normalising microarray intensities,
