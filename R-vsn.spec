@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          3.26.0
-Release:          1
+Release:          2
 Summary:          Variance stabilization and calibration for microarray data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
