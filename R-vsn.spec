@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.26.0
-Release:          2
+Version:          3.28.0
+Release:          1
 Summary:          Variance stabilization and calibration for microarray data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/vsn.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/vsn_3.26.0.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/vsn_3.28.0.tar.gz
 Requires:         R-Biobase R-methods R-affy R-limma R-lattice
 Requires:         R-affydata R-hgu95av2cdf
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
